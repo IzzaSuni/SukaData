@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SukaData</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main id="body">
+      <nav class="flex" style="justify-content: space-between">
+        <div
+          id="BrandText"
+          class="pt-8 pl-20 text-white"
+          style="font-size: 36px; position: static"
+        >
+          SUKADATA
+        </div>
+        <div class="flex flex row items-center pt-8">
+          <a href="#" class="navChild">About</a>
+          <a href="#" class="navChild">Course</a>
+          <a href="#" class="navChild">Contact</a>
+          <a href="./Register.html" class="navChildB">Register</a>
+        </div>
+      </nav>
+
+      <div
+        class="flex"
+        style="height: 50vh; justify-content: end; margin: 150px 200px 0 0"
+      >
+        <div id="Quotes" style="margin: 0 130px">
+          <h1>Easy And Fun Learning</h1>
+          <h3>
+            Get a variety of materials that you can learn here. Access material
+            for free anytime and anywhere
+          </h3>
+        </div>
+        <div id="containerMainLogin" class="bg-white">
+          <div
+            style="font-size: 20px; margin-top: 30px"
+            class="flex justify-center self-start"
+          >
+            Login
+          </div>
+
+          <main>
+            <form id="form">
+              <div class="flex flex-col">
+                <label style="size: 14px" class="py-2.5">Email</label>
+                <input
+                  class="pl-2"
+                  style="font-size: 16px"
+                  type="email"
+                  required
+                />
+              </div>
+              <div class="flex flex-col">
+                <label style="size: 14px" class="py-2.5">Password</label>
+                <input
+                  class="pl-2"
+                  style="font-size: 16px"
+                  type="password"
+                  required
+                />
+              </div>
+              <div class="flex justify-center">
+                <button
+                  style="
+                    background-color: #2f3c67;
+                    color: white;
+                    margin-top: 38px;
+                    padding: 8px 0;
+                    font-size: 16px;
+                  "
+                  class="rounded-2xl w-full hover:bg-black"
+                >
+                  Login
+                </button>
+              </div>
+              <div class="flex justify-center">
+                <div class="mt-8">Not having an account?</div>
+              </div>
+              <div class="flex justify-center">
+                <a href="#" style="color: #000afa">Register</a>
+              </div>
+            </form>
+          </main>
+        </div>
+      </div>
+    </main>
+    <div class="h-screen" id="dialog">
+      <div id="dialogTitle">
+        <h2 class="flex justify-center">You can do A lot Here</h2>
+        <div id="dialogContent">
+          
+        </div>
+      </div>
+      
+    </div>
+
+
+
+
+    <script src="./LandingPage/LandingPage.js"></script>
+  </body>
+</html>
+

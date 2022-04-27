@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SukaData</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+
+  </head>
+  <body>
+    <main id="body">
+      <div
+        id="BrandText"
+        class="pt-8 pl-20 text-white"
+        style="font-size: 36px; position: static"
+      >
+        SUKADATA
+      </div>
+      <div class="flex items-center justify-center" style="height: 80vh;">
+        <div id="containerMain" class="bg-white">
+          <div
+            style="font-size: 20px"
+            class="mt-12 flex justify-center self-start"
+          >
+            Register Your New Account
+          </div>
+          <div style="font-size: 14px" class="flex justify-center self-start">
+            Start to explore your knowledge here
+          </div>
+          <main>
+            <form id="form1">
+              <div class="flex flex-col">
+                <label style="size: 14px" class="py-2.5">Full Name</label>
+                <input
+                  class="pl-2"
+                  style="font-size: 16px"
+                  type="text"
+                  required
+                />
+              </div>
+              <div class="flex flex-col">
+                <label style="size: 14px" class="py-2.5">Email</label>
+                <input
+                  class="pl-2"
+                  style="font-size: 16px"
+                  type="email"
+                  required
+                />
+              </div>
+              <div class="flex flex-col">
+                <label style="size: 14px" class="py-2.5">Password</label>
+                <input
+                  class="pl-2"
+                  style="font-size: 16px"
+                  type="password"
+                  required
+                />
+              </div>
+              <div class="flex justify-center">
+                <button
+                  style="
+                    background-color: #2f3c67;
+                    color: white;
+                    margin-top: 38px;
+                    padding: 8px 0;
+                    font-size: 16px;
+                  "
+                  class="button rounded-2xl w-full hover:bg-black"
+                >
+                  Register
+                </button>
+              </div>
+              <div class="flex justify-center">
+                <div class="mt-8">Already have an account?</div>
+              </div>
+              <div class="flex justify-center">
+                <a href="#" style="color: #000afa">Sign in</a>
+              </div>
+            </form>
+          </main>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

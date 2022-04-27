@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#containerMain {
+  height: 32%;
+  width: 32%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#form1 {
+  padding: 25px 80px 0px 80px;
+}
+input {
+  border: 1px solid #2f41e3;
+  border-radius: 15px;
+  height: 33px;
+}
+input:focus-visible {
+  border: 1px solid #2f41e3 !important;
+}
+.button:hover {
+  background: black !important;
+}
+h1 {
+  font-size: 48px;
+  color: white;
+}
+h3 {
+  font-size: 36px;
+  color: white;
+}
+#body {
+  background-image: url("../Public/assets/BackgroundRegister.png");
+  font-family: "Cormorant Garamond", serif;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 140vh;
+}
+#dialog {
+  height: 100vh;
+  padding: 200px 226px;
+  background-color: #303c66e5;
+  padding-bottom: 100px;
+  font-family: montserrat;
+}
+h2{
+    font-size: 32px;
+}
+#dialogTitle {
+  background-color: white;
+  height: 100%;
+  border-radius: 15px;
+}
+.navChild {
+  padding: 0px 40px !important;
+  font-size: 20px;
+  color: white;
+}
+.navChildB {
+  margin: 0px 138px 0 80px !important;
+  font-size: 20px;
+  padding: 5px 20px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #303c66;
+}
+.navChildB:hover {
+  background-color: #303c66 !important;
+  color: white !important;
+}
+#containerMainLogin {
+  height: 465px !important;
+  width: 324px;
+  border-radius: 15px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#form {
+  padding: 5px 60px 0px 60px;
+}
