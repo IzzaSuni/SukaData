@@ -31,18 +31,37 @@ h3 {
   color: white;
 }
 #body {
-  background-image: url("../Public/assets/BackgroundRegister.png");
+  /* background-image: url("../Public/assets/BackgroundRegister.png"); */
   font-family: "Cormorant Garamond", serif;
-  background-size: cover;
+  /* background-size: cover; */
   height: 140vh;
+  top: -140vh;
+  position: relative;
+  height: 0;
 }
-#body1 {
-  background-image: url("../Public/assets/BackgroundRegister.png");
-  font-family: "Cormorant Garamond", serif;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
+#bg1{
+  width: 100%;
+  background-size: cover;  
+  height: 140vh;
+  background-image: url('../../Public/assets/BackgroundRegister.png');
 }
+#bg2{
+  width: 50%;  
+  
+  height: 140vh;
+  background-image: url('../../Public/assets/BackgroundRegister.png');
+}
+.carousels{
+  display:inline;
+  height: 140vh;
+  position: relative;
+  transform:translateX(-90%);
+  transition: ease-in-out transform 1000ms ;
+}
+#wrapperAll{
+  z-index: 100;
+}
+
 #courseTitle {
   font-family: "montserrat" !important;
   font-size: 21px !important;

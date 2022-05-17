@@ -33,7 +33,7 @@ const Menu = [
 document.getElementById("dialogContent").innerHTML = content
   .map((item, index) =>
     index === 1
-      ? `<div class="flex " style="justify-content:center;padding:134px 0" >
+      ? `<div class="flex " style="justify-content:center;padding:134px 0;" >
       <div style="justify-content: center;
       display: flex;
       text-align: center;
@@ -48,10 +48,10 @@ document.getElementById("dialogContent").innerHTML = content
       <button id="buttonMenu">Go To Page</button>
       </div>
       </div>
-      <div id="MenuContent" style=" background-image: url(../Public/assets/${item.img});height:328px;width:436px;"> </div>
+      <div id="MenuContent" style=" background-image: url(../Public/assets/${item.img});height:328px;width:436px;border-radius:20px"> </div>
             </div>`
-      : `<div id="Halos${index}" class="flex my-5" style="justify-content:center" >
-            <div id="MenuContent" style=" background-image: url(../Public/assets/${item.img});height:328px;width:436px;"> </div>
+      : `<div id="Halos${index}" class="flex my-5" style="justify-content:center;" >
+            <div id="MenuContent" style=" background-image: url(../Public/assets/${item.img});height:328px;width:436px;border-radius:20px"> </div>
             <div style="justify-content: center;
             display: flex;
             text-align: center;
@@ -96,3 +96,12 @@ for (let i = 0; i < textMenuLittle.length; i++) {
     });
   });
 }
+
+const bodyBg=document.getElementById("bg")
+const bgChange=()=>{
+  bodyBg.style.backgroundImage="url('../../Public/assets/BackgroundRegister.png')"
+  // setTimeout(()=>bodyBg.style.left="100%",3000)
+  // setTimeout(()=>bodyBg.style.transition="left ease-in-out 3000ms")
+  
+}
+bgChange()
